@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-17T11:31:43.929Z" agent="5.0 (Windows)" etag="XNbcN75g2boBOnrP7xmE" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-17T11:38:24.624Z" agent="5.0 (Windows)" etag="SgO8FkGsdCct5lFiAsdq" version="14.4.8" type="github">
   <diagram id="rC1WBWersCppBYpSQW6r" name="Page-1">
     <mxGraphModel dx="2780" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -20,7 +20,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cW2sHewDqIjpUbxLCJ0e-4" value="Does P&amp;amp;L Attribution pass" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;background=gateway;outlineConnect=0;outline=none;symbol=exclusiveGw;" vertex="1" parent="1">
-          <mxGeometry x="110" y="450" width="50" height="50" as="geometry" />
+          <mxGeometry x="205" y="480" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cW2sHewDqIjpUbxLCJ0e-5" value="" style="endArrow=block;endFill=1;endSize=6;html=1;" edge="1" parent="1" source="cW2sHewDqIjpUbxLCJ0e-2" target="cW2sHewDqIjpUbxLCJ0e-4">
           <mxGeometry width="100" relative="1" as="geometry">
@@ -29,7 +29,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cW2sHewDqIjpUbxLCJ0e-6" value="Check backtesting perforamance of model without dividend modelling" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="330" y="435" width="120" height="80" as="geometry" />
+          <mxGeometry x="330" y="465" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="cW2sHewDqIjpUbxLCJ0e-7" value="Identify proxy indices and calibrate betas of single stocks" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="75" y="670" width="120" height="80" as="geometry" />
@@ -85,7 +85,7 @@
             <mxPoint x="290" y="710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cW2sHewDqIjpUbxLCJ0e-30" value="P&amp;amp;L attiburtion and backtesting performance check" style="html=1;whiteSpace=wrap;rounded=1;dropTarget=0;" vertex="1" parent="1">
+        <mxCell id="cW2sHewDqIjpUbxLCJ0e-30" value="P&amp;amp;L attribution and backtesting performance check" style="html=1;whiteSpace=wrap;rounded=1;dropTarget=0;" vertex="1" parent="1">
           <mxGeometry x="295" y="670" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="cW2sHewDqIjpUbxLCJ0e-31" value="" style="html=1;shape=plus;outlineConnect=0;" vertex="1" parent="cW2sHewDqIjpUbxLCJ0e-30">
@@ -93,7 +93,7 @@
             <mxPoint x="-7" y="-14" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cW2sHewDqIjpUbxLCJ0e-32" value="&lt;div&gt;Model only general component&lt;/div&gt;&lt;div&gt;specific component not material&lt;br&gt;&lt;/div&gt;" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;outline=end;symbol=general;" vertex="1" parent="1">
+        <mxCell id="cW2sHewDqIjpUbxLCJ0e-32" value="&lt;div&gt;Include general component proxy in model&lt;br&gt;&lt;/div&gt;&lt;div&gt;specific component not material&lt;br&gt;&lt;/div&gt;" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;outline=end;symbol=general;" vertex="1" parent="1">
           <mxGeometry x="580" y="685" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cW2sHewDqIjpUbxLCJ0e-34" value="Check passed" style="endArrow=block;endFill=1;endSize=6;html=1;" edge="1" parent="1" source="cW2sHewDqIjpUbxLCJ0e-30" target="cW2sHewDqIjpUbxLCJ0e-32">
@@ -108,8 +108,43 @@
             <mxPoint x="355" y="810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cW2sHewDqIjpUbxLCJ0e-36" value="Expand model with " style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="cW2sHewDqIjpUbxLCJ0e-36" value="Expand proxy with specific component" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="75" y="800" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cW2sHewDqIjpUbxLCJ0e-37" value="P&amp;amp;L attribution and backtesting performance check" style="html=1;whiteSpace=wrap;rounded=1;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="800" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cW2sHewDqIjpUbxLCJ0e-38" value="" style="html=1;shape=plus;outlineConnect=0;" vertex="1" parent="cW2sHewDqIjpUbxLCJ0e-37">
+          <mxGeometry x="0.5" y="1" width="14" height="14" relative="1" as="geometry">
+            <mxPoint x="-7" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cW2sHewDqIjpUbxLCJ0e-39" value="Include general component in model&lt;br&gt;handle specific component as NMRF" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;outline=end;symbol=general;" vertex="1" parent="1">
+          <mxGeometry x="480" y="960" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cW2sHewDqIjpUbxLCJ0e-40" value="&lt;div&gt;Does the specific component&lt;/div&gt;&lt;div&gt;fulfill modellability?&lt;br&gt;&lt;/div&gt;" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;background=gateway;outlineConnect=0;outline=none;symbol=exclusiveGw;" vertex="1" parent="1">
+          <mxGeometry x="480" y="815" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cW2sHewDqIjpUbxLCJ0e-42" value="Inlcude" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;outline=end;symbol=general;" vertex="1" parent="1">
+          <mxGeometry x="670" y="815" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cW2sHewDqIjpUbxLCJ0e-43" value="Yes" style="endArrow=block;endFill=1;endSize=6;html=1;" edge="1" parent="1" source="cW2sHewDqIjpUbxLCJ0e-40" target="cW2sHewDqIjpUbxLCJ0e-42">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="350" y="570" as="sourcePoint" />
+            <mxPoint x="450" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cW2sHewDqIjpUbxLCJ0e-44" value="No" style="endArrow=block;endFill=1;endSize=6;html=1;" edge="1" parent="1" source="cW2sHewDqIjpUbxLCJ0e-40" target="cW2sHewDqIjpUbxLCJ0e-39">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="350" y="570" as="sourcePoint" />
+            <mxPoint x="450" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cW2sHewDqIjpUbxLCJ0e-45" value="" style="endArrow=block;endFill=1;endSize=6;html=1;" edge="1" parent="1" source="cW2sHewDqIjpUbxLCJ0e-36" target="cW2sHewDqIjpUbxLCJ0e-37">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="350" y="570" as="sourcePoint" />
+            <mxPoint x="450" y="570" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
